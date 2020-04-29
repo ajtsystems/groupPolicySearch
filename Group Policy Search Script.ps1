@@ -7,7 +7,7 @@ function parseAD
     $array123 =@()
     write-host "________________________________________________"
     write-host ""
-    write-host "Your search for keyword $global:searchy has returned the following Group Policies..."
+    write-host "Your search for keyword $global:searchy has returned the following Group Policies...."
     write-host ""
 foreach ($gu_id in $global:guidsreturned){
 
